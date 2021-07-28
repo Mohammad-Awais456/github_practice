@@ -74,6 +74,7 @@ command:       git checkout -f
 purpose:    restore changes of complete repository to last commit.
 ..............................................................................................
 ..............................................................................................
-command:       git remote 
-purpose:    
+command:       git config --global alias.(Custom_command_name) 'original command'
+syntax:
+purpose:    shorten any command
 ..............................................................................................
