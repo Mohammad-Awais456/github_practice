@@ -1,0 +1,8 @@
+@mixin btn($size,$tb,$lr) {
+    width: auto;
+    height: auto;
+    font-size: $size;
+    color: black;
+    padding: $tb $lr;
+   
+}

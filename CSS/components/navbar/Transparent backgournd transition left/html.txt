@@ -1,0 +1,54 @@
+ <div id="main">
+
+
+  <!-- nav bar starting here  -->
+
+  <nav id="navbar">
+
+
+    <input type="checkbox" style="display: none;" id="checkbox">
+<div class="parentlogo">
+
+  
+  
+  
+  
+  <span class="logoparent"><img src="./img/logo.svg" alt="" class="logo"></span>
+  
+  <label for="checkbox" id="togglebar"><i class="fas fa-bars fa-2x" style="color: white;    font-size: 30px;"></i></label>
+</div>
+
+
+    <ul id="navul">
+      <li class="nav-li"><a href="#" class="nav-a">
+Home
+        </a></li>
+      <li class="nav-li"><a href="#" class="nav-a">
+About   
+      </a></li>
+      <li class="nav-li"><a href="#" class="nav-a">
+Ingredients
+      </a></li>
+      <li class="nav-li"><a href="#" class="nav-a">
+Menu
+      </a></li>
+      <li class="nav-li"><a href="#" class="nav-a">
+Reviews
+      </a></li>
+      <li class="nav-li"><a href="#" class="nav-a">
+Reservations
+      </a></li>
+
+    </ul>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+  </div>

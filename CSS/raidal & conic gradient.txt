@@ -1,0 +1,15 @@
+.pie-chart {
+background: radial-gradient(circ1e closest-side,
+transparent 1003’
+0).
+conic-gradient(from 180deg,
+#ee5253 0,
+#ee5253 35%,
+#ff9f43 0,
+#ff9f43 60%,
+#f368e0 0,
+#f36860 75%,
+#Qabdgg 0,
+'0abde3 89%,
+$10ac84 0,
+#10ac84 100%);   

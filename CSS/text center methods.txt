@@ -1,0 +1,25 @@
+                                   Method no.1
+.main_div {
+                        Parent div ko positon relative dena hy
+position: relative;
+}
+.main_div hl {
+positionz‘absolute;
+"----t0p:-5@%;
+I'v'-'width:'100%;
+r text-alignz-cen?er;
+transform: translateY(—50%);
+}   
+................................Method no.2......................
+parentdiv{
+              display:table}
+textdiv{
+
+display:table-cell;
+vertical-align:middle;
+text-align: center;
+}\
+................................Method no.3......................
+flex method
+................................Method no.4......................
+grid method

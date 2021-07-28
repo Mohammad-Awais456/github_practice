@@ -1,0 +1,92 @@
+// common responsive medaia 
+
+@media only screen and(min-width:300px) and(max-width:360px){
+
+html{
+    font-size: 59%;
+}
+}
+@media only screen and(min-width:240px) and(max-width:299px){
+
+html{
+    font-size: 55%;
+}
+}
+@media only screen and(min-width:1400px) and(max-width:1500px){
+
+html{
+    font-size: 65%;
+}
+}
+@media only screen and(min-width:1501px) and(max-width:1700px){
+
+html{
+    font-size: 70%;
+}
+#finemain{
+    height: 700px;
+}
+}
+@media only screen and(min-width:1701px) and(max-width:1900px){
+
+html{
+    font-size: 74%;
+}
+#finemain{
+    height: 800px;
+}
+}
+@media only screen and(min-width:1901px) and(max-width:2100px){
+
+html{
+    font-size: 80%;
+}
+#finemain{
+    height: 850px;
+}
+}
+@media only screen and(min-width:2101px) and(max-width:2400px){
+
+html{
+    font-size: 88%;
+}
+#finemain{
+    height: 900px;
+}
+}
+@media only screen and(min-width:2401px) and(max-width:2700px){
+
+html{
+    font-size: 100%;
+}
+#finemain{
+    height: 950px;
+}
+}
+@media only screen and(min-width:2701px) and(max-width:4000px){
+
+html{
+    font-size: 115%;
+}
+#finemain{
+    height: 950px;
+}
+}
+@media only screen and(min-width:4001px) and(max-width:5000px){
+
+html{
+    font-size: 120%;
+}
+#finemain{
+    height: 950px;
+}
+}
+@media only screen and(min-width:5001px) and(max-width:8000px){
+
+html{
+    font-size: 140%;
+}
+#finemain{
+    height: 950px;
+}
+}

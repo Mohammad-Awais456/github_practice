@@ -1,0 +1,24 @@
+command:         rm -rf .git
+purpose:    remove complete repository
+
+..............................................................................................
+command:        pwd
+purpose:    Show current working directory location
+
+
+..............................................................................................
+command:        ls
+purpose:    Show the list of content in current folder
+
+..............................................................................................
+command:        touch 
+purpose:    used to create file like txt,.log etc.
+Example:      touch .gitignore or touch tx.txt
+..............................................................................................
+command:        git diff 
+purpose:    track difference between changes
+..............................................................................................
+command:        git commit -a -m "direct commit"
+purpose:    track difference between changes
+
+

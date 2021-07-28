@@ -1,0 +1,65 @@
+
+let period="AM";
+let monarray=["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul","Aug", "Sep", "Oct", "Nov", "Dec"];
+
+let dayarray=[
+    "Sun","Mon","Tue","Web","Thur","Fri","Sat"
+]
+let time={
+    hours:0,
+    minutes:0
+}
+let {hours,minutes}=time;
+
+function trimtime(){
+
+    if(hours>11){
+        period="PM";
+        if(hours>12){
+            hours-=12;
+        }
+    }
+    if(minutes<10)
+    {
+        minutes="0"+minutes;
+    }
+    
+
+
+}
+function setclock(day,month,year,date){
+
+    datetime.innerHTML=`${day}|${month},${date}/${year}|${hours}:${minutes} ${period}`;
+}
+
+
+
+
+
+
+function clock(){
+
+    let clock= new Date();
+
+    let month=clock.getMonth();
+    let day=clock.getDay();
+    
+let date=clock.getDate();
+let year=clock.getFullYear();
+
+
+ hours=clock.getHours();
+
+ minutes=clock.getMinutes();
+
+trimtime(hours,minutes);
+
+day=dayarray[day];
+month=monarray[month];
+
+
+setclock(day,month,year,date);
+
+
+}
+clock();

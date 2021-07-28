@@ -1,0 +1,7 @@
+font-size: 100px;
+    color: transparent !important;
+    background: url(https://www.universetoday.com/wp-content/uploads/2008/10/m45-1280x720.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
