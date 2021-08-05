@@ -1,0 +1,77 @@
+*************************************************************************
+                          MongoDB CRUD commands
+*************************************************************************
+command:   db
+purpose:     show current database(in which you are working)
+*************************************************************************
+command: show dbs
+purpose:      show all databases.
+*************************************************************************
+command:  quit()
+purpose:
+*************************************************************************
+command:   use (database_name)
+purpose:     create new database or switch to existing database
+*************************************************************************
+command: show collections
+purpose:    used to show collections of database
+*************************************************************************
+*************************************************************************
+*************************************************************************
+                        Query Commands 
+*************************************************************************
+command: db.collection_name.find()
+purpose:     show records of collection
+*************************************************************************
+*************************************************************************
+                             .findOne()
+*************************************************************************
+command:          db.collection_name.find({key:value})
+purpose:        display only one record which matched first
+*************************************************************************
+*************************************************************************
+**********************************************  ***************************
+                             .skip(value)
+*************************************************************************
+command:          db.collection_name.find({key:value}).skip(value)
+purpose:        skip first matching record according to value 
+*************************************************************************
+*************************************************************************
+                        display only one field
+*************************************************************************
+
+command :          db.collection_name.find({key:value},{same_key:1})
+example:  db.countries.find({name:"pakistan"},{name:1}).pretty()
+purpose:      display only matched field
+*************************************************************************
+command: db.collection_name.find().pretty()
+purpose:     show records of collection in very beautiful way
+*************************************************************************
+*************************************************************************
+        find with key&value 
+command: db.countries.find({active:true}).pretty()
+purpose: show data which have same key & value  
+************************************************************************
+*************************************************************************
+                   .limit
+command: db.countries.find({active:true}).pretty().limit(valuei.e=1)
+purpose: show data which have same key & value  of first maching
+************************************************************************
+
+                    Insertation Command 
+************************************************************************
+command:    db.collection_name.insertMany([{record1},{record2 },{record3}])
+purpose:           instead of one , you can add more records in collection
+*************************************************************************
+command:    db.collection_name.insertOne({record:"value"}) 
+purpose: create new collection base and insert data in it. or insert
+                      data in existing coll ection.
+*************************************************************************
+*************************************************************************
+*************************************************************************
+                        Upadting Commands
+*************************************************************************
+
+command:   
+purpose:         
+*************************************************************************
